@@ -82,7 +82,7 @@ body {
     margin-bottom: 20px;
 }
 
-#name {
+#searchQuerry {
     padding: 8px;
 }
 
@@ -210,6 +210,5 @@ body {
 }
 
 .centeryourmom {
-    align-items: center;
-    
+    align-items: center;   
 }

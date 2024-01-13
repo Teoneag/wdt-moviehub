@@ -1,11 +1,9 @@
-document.getElementById('myForm').addEventListener('submit', function (event) {
+document.getElementById('searchForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent form submission and page refresh
 
-    const searchTerm = document.getElementById('name').value;
+    const searchTerm = document.getElementById('searchQuerry').value;
     searchMovies(searchTerm);
 });
-
-// TODO: modify myForm and name
 
 async function searchMovies(searchTerm) {
     const apiKey = '34d89159';
