@@ -5,16 +5,15 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     searchMovies(searchTerm);
 });
 
-async function searchMovies(searchTerm) {
-    const apiKey = '34d89159'; // Replace with your actual API key
-    const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=${encodeURIComponent(searchTerm)}`;
+// TODO: modify myForm and name
 
-    console.log('Fetching data from OMDb API:', apiUrl);
+async function searchMovies(searchTerm) {
+    const apiKey = '34d89159';
+    const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=${encodeURIComponent(searchTerm)}`;
 
     try {
         const response = await fetch(apiUrl);
         const data = await response.json();
-        console.log('data:', data);
 
         if (data.Search && data.Search.length > 0) {
             displayResults(data.Search);
@@ -22,7 +21,7 @@ async function searchMovies(searchTerm) {
             displayError();
         }
     } catch (error) {
-        console.error('Error fetching data from OMDb API:', error);
+        displayError();
     }
 }
 
@@ -43,5 +42,5 @@ function displayResults(results) {
 
 function displayError() {
     const resultsArea = document.getElementById('result');
-    resultsArea.innerHTML = 'Ba baiatule esti gay?';
+    resultsArea.innerHTML = '404 Not Found <]:3';
 }
