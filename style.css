@@ -1,0 +1,75 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 3;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.smallRow {
+    display: flex;
+}
+
+.box, .bigBox {
+    background-color: #808080;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user{
+    display: flex;
+    background-color: #808080;
+    margin: 10px;
+}
+
+.bigBox{
+    background-color: #292929;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.input {
+    background-color: #808080;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: black;
+    text-align: center;
+}
