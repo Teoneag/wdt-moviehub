@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reveal Example</title>
+
+</head>
+<body>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <span id="revealButton" onclick="togglePasswordVisibility()">Show Password</span>
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById('password');
+            var revealButton = document.getElementById('revealButton');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                revealButton.textContent = 'Hide Password';
+            } else {
+                passwordInput.type = 'password';
+                revealButton.textContent = 'Show Password';
+            }
+        }
+    </script>
+
+</body>
+</html>
