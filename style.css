@@ -6,16 +6,13 @@ html {
     display: flex;
 }
 
-.column {
+.column,
+.columnBig {
     display: flex;
     flex-direction: column;
 }
 
-.flex1 {
-    flex: 1;
-}
-
-.flex2 {
+.columnBig {
     flex: 3;
 }
 
@@ -28,7 +25,9 @@ html {
     display: flex;
 }
 
-.box, .bigBox {
+.smallWidget,
+.widget,
+.user {
     background-color: #808080;
     display: flex;
     margin: 10px;
@@ -37,22 +36,21 @@ html {
     justify-content: center;
 }
 
-.user{
-    display: flex;
-    background-color: #808080;
-    margin: 10px;
+.widget {
+    background-color: #292929;
 }
 
-.bigBox{
-    background-color: #292929;
+.user {
+    padding: 10px;
+    flex-direction: row;
 }
 
 .round {
     border-radius: 50%;
 }
 
-.padding {
-    padding: 10px;
+.marginRight {
+    margin-right: 10px;
 }
 
 .center {
