@@ -208,3 +208,26 @@ body {
 .centeryourmom {
     align-items: center;   
 }
+
+/* ##################### */
+
+.playlistPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.smallwhite{
+    text-align: left;
+    color:#ffffff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.href{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* ##################### */
