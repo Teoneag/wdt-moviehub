@@ -30,4 +30,4 @@ A html website for movie lovers
 - More orange on home page
 
 ### Gali
-- had sex with teons sister
+- woke up
