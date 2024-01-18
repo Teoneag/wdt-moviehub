@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-rows: 1fr; /* Take up the remaining height */
+            grid-template-columns: 30% 70%;
+            height: calc(100vh - 40px); /* Subtracting the navbar height */
+            padding: 20px;
+        }
+
+        /* Styles for demonstration purposes */
+        .col {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+            min-height: 100px;
+        }
+
+        /* Optional: Add media queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            main {
+                grid-template-columns: 100%; /* Make it a single column on smaller screens */
+            }
+        }
+    </style>
+    <title>Navbar and Grid Layout</title>
+</head>
+<body>
+
+    <nav>
+        <!-- Your navbar content goes here -->
+        Navbar Content
+    </nav>
+
+    <main>
+        <div class="col">Column 1</div>
+        <div class="col">Column 2</div>
+    </main>
+
+</body>
+</html>

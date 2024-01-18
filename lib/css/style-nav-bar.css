@@ -1,0 +1,32 @@
+nav {
+    background-color: #292929;
+    display: flex;
+    align-items: stretch;
+}
+
+.navItem {
+    transition: all 0.3s ease;
+    font-size: 30px;
+}
+
+.navItem:hover {
+    background-color: #808080;
+}
+
+.navItemDiv {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#searchBar {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#searchLogo {
+    padding: 0;
+}
