@@ -27,5 +27,5 @@ A html website for movie lovers
 - Logo on home page
 - More orange on home page
 
-###Gali
+### Gali
 - had sex with teons sister
