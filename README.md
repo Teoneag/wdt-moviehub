@@ -26,3 +26,6 @@ A html website for movie lovers
 - header bar - proper way
 - Logo on home page
 - More orange on home page
+
+- ###Gali
+- had sex with teons sister
