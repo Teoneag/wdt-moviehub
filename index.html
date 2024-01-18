@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The facebook of movies: create lists of your favorite movies and share them with friends!">
+    <meta name="keywords" content="movie, film, cinema, entertainment, genre, MovieHub">
+    <meta name="author" content="Teodor Neagoe & Horia Galitianu">
+    <meta name="robots" content="index, follow">
+
+    <title>MovieHub Login</title>
+
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="lib/css/stail-login.css">
     <link rel="stylesheet" href="lib/css/style.css">
 
@@ -8,63 +20,71 @@
 
 <body>
 
-    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> who uses this is stupid-->
-    <div class="center">
-        <table class="table" >
-            <tr>
-                <td colspan=2><a href="Original logo"><img src="img/logo.png" alt="Original Logo"></a></th>
-            </tr>
-            <tbody>
-                <tr>
-                    <td> <a href="./">
-                            <button>Login</button>
-                        </a></td>
-                    <td> <a href="./">
-                            <button>Sign up</button>
-                        </a></td>
-                </tr>
-                <tr>
-                    <td colspan=2 class="whiteText">
-                        <form>
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" name="username" required class="smallwhite">
+    <main>
 
-                        </form>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan=2 class="whiteText">
 
-                        Password:
-                        <input type="password" id="password" name="password" required class="smallwhite">
-                        <span id="revealButton" onclick="togglePasswordVisibility()">Show</span>
+        <div class="center">
+            <table class="table">
+                <tr>
+                    <td colspan=2><a href="Original logo"><img src="img/logo.png" alt="Original Logo"></a></th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td> <a href="./">
+                                <button>Login</button>
+                            </a></td>
+                        <td> <a href="./">
+                                <button>Sign up</button>
+                            </a></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="whiteText">
+                            <form>
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" required class="smallwhite">
 
-                        <script src="lib/js/show_password.js"></script>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="whiteText">
 
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan=2 class="whiteText">Stay signed in?
-                        <label>
-                            <input type="checkbox" id="tickCheckbox">
-                            <span class="tick-button" onclick="document.getElementById('tickCheckbox').click()"></span>
-                        </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" class="loginButton">
-                        <a href="lib/html/home.html">
-                            Log in
-                        </a>
-                    </td>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan=2><button type="forgot">Forgot Password?</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+                            Password:
+                            <input type="password" id="password" name="password" required class="smallwhite">
+                            <span id="revealButton" onclick="togglePasswordVisibility()">Show</span>
+
+                            <script src="lib/js/show_password.js"></script>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 class="whiteText">Stay signed in?
+                            <label>
+                                <input type="checkbox" id="tickCheckbox">
+                                <span class="tick-button"
+                                    onclick="document.getElementById('tickCheckbox').click()"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="loginButton">
+                            <a href="lib/html/home.html">
+                                Log in
+                            </a>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=2><button type="forgot">Forgot Password?</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content, copyright, links, etc. -->
+    </footer>
 </body>
 
 </html>

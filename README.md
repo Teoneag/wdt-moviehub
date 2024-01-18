@@ -15,6 +15,12 @@ A html website for movie lovers
 - list page
 - footer
 
+## Teon
+- search page
+
+## Gali
+- whole loging button clickable
+
 ## Done
 ### Teon
 - header bar - proper way

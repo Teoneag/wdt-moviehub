@@ -57,6 +57,7 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
+    height: 100%;
 }
 
 .input {
@@ -74,7 +75,6 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     text-align: center;
 }
 
