@@ -20,6 +20,8 @@ A html website for movie lovers
 
 ## Gali
 - whole loging button clickable
+- profile page
+- list page
 
 ## Done
 ### Teon
